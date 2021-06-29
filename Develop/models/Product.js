@@ -11,13 +11,13 @@ Product.init(
   {
     id:{
       type:DataTypes.INTEGER,
-      allotNull:false,
+      allowNull:false,
       primaryKey:true,
       autoIncrament: true,
 
     },
     product_name:{
-      type:Datatypes.STRING,
+      type: Datatypes.STRING,
       allowNull:false,
     },
     price:{
