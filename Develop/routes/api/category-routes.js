@@ -6,12 +6,35 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
+  try{
+    const allC = await Catergory.findAll({
+      include: [{model:Product}],
+    })
+    res.status(200).json(allCategories)
+
+  }catch (err){
+    console.log (err)
+  }
 });
 
 router.get('/:id', (req, res) => {
+  try{
+    const Data = await Category.findByPk(req.params.id,{
+      include: [{model: Product}]
+    });
+    if (!Data){
+      res.status(404).json({message:"None Found!"});
+      return;
+    }
+    res.status(200).json(Data);
+  }
+catch (err){
+res.status(500).json(err)
+}
+});
   // find one category by its `id` value
   // be sure to include its associated Products
-});
+
 
 router.post('/', (req, res) => {
   // create a new category
