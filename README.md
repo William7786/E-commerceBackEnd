@@ -1,5 +1,26 @@
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
+MYREADME{
+  
+  
+  FIRST I CREATED ALL THE GENERAL FILES.
 
+  THEN I INSTALLED ALL NPM PACKAGES
+
+  NEXT I STARTED ON PRODUCT.JS
+
+  THEN CREATED MODELS
+
+  NEXT I FIXED ISSUES IN THE MODELS
+
+  THEN I FINISHED CATEGORY ROUTES
+
+  NEXT I FIXED MORE ROUTES AND ADDED THE SEEDS TO MYSQL
+
+  NEXT ADDED THE DELETE ROUTES
+
+  THEN FIXED ROUTE ERR
+}
+Video Link: https://drive.google.com/file/d/1n0_TaBzhkZe-SaBJ5IiDOs0E1j6NkHJX/view
 ## Your Task
 
 Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
