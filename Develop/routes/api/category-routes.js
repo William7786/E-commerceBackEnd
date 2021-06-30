@@ -53,7 +53,7 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', async(req, res) => {
   try{
-    const deleteDATA = await Product.destroy({
+    const deleteDATA = await Category.destroy({
       where:{
         id: req.params.id
       },
