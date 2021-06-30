@@ -56,7 +56,7 @@ router.delete('/:id', async(req, res) => {
   } catch (err){
       res.status(500).json(err)
     }
-  // delete on tag by its `id` value
+  
 });
 
 module.exports = router;
